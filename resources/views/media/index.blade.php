@@ -25,6 +25,7 @@
 
                     <form action="{{route('media.destroy',$photo->id)}}" method="post">
                         @csrf
+
                         @method('DELETE')
                         <td><input type="submit" value="Delete" class="btn btn-danger"></td>
                     </form>

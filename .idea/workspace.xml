@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaeaf186-ad35-45e4-af1c-d6b5dc7a6b02" name="Default Changelist" comment="" />
+    <list default="true" id="aaeaf186-ad35-45e4-af1c-d6b5dc7a6b02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/media/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/media/index.blade.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +172,7 @@
       <workItem from="1567847212804" duration="12824000" />
       <workItem from="1567934313922" duration="15028000" />
       <workItem from="1568031972514" duration="1025000" />
-      <workItem from="1568033941403" duration="49911000" />
+      <workItem from="1568033941403" duration="50003000" />
     </task>
     <servers />
   </component>
