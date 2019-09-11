@@ -8,4 +8,4 @@
 </p>
 
 <h1> Personal Blog</h1>
-<h1> wrote with laravel</h1>
+<h1> written with laravel</h1>
