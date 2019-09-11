@@ -102,14 +102,11 @@
                 @endforeach
             @endif
             <!-- Pager -->
-                <ul class="pager">
-                    <li class="previous">
-                        <a href="#">&larr;pre </a>
-                    </li>
-                    <li class="next">
-                        <a href="#">Next &rarr;</a>
-                    </li>
-                </ul>
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-5">
+                        {{$posts->render()}}
+                    </div>
+                </div>
 
             </div>
 

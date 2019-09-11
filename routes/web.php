@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    $posts = Post::all();
+    $posts = Post::paginate(5);
     $categories = Category::all();
     return view('layouts.index', compact('posts', 'categories'));
 });
