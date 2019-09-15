@@ -2,7 +2,7 @@
 @section('content')
     <div id="wrapper">
         <div id="page-wrapper">
-
+            @include('includes.tiny-editor')
             <div class="container-fluid">
 
                 <!-- Page Heading -->
@@ -35,7 +35,7 @@
                             </div>
                             <div class="form-group ">
                                 <lable for="body"><h4> content</h4></lable>
-                                <textarea name="body" class="form-control" id="" cols="30" rows="10 "></textarea>
+                                <textarea name="body" class="form-control" cols="30" rows="10 "></textarea>
                             </div>
                             <div class="form-group col-xs-12">
                                 <input type="submit" name="create_post" value="Post" class="btn btn-primary">

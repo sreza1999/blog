@@ -30,6 +30,7 @@ Route::group(['middleware' => 'admin'], function () {
     Route::resource('admin/category', 'AdminCategoryController');
     Route::resource('admin/media', 'MediaController');
     Route::resource('admin/comment', 'AdminCommentController');
+    Route::resource('admin/dashboard', 'dashboardController');
     Route::resource('admin/comment/replies', 'AdminCommentRepliesController');
     Route::get('/admin', function () {
         return view('layouts.admin');
