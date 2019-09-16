@@ -90,7 +90,7 @@
                             <a href="{{route('post',$post->id)}}">{{$post->title}}</a>
                         </h2>
                         <p class="lead">
-                            by <a href="index.php">{{$post->author}}</a>
+                            by {{$post->user->name}}
                         </p>
                         <p><span class="glyphicon glyphicon-time"></span> Posted {{$post->created_at->diffForhumans()}}
                         </p>

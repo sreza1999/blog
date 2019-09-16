@@ -123,8 +123,8 @@ class AdminPostController extends Controller
     {
         $post = Post::findOrFail($id);
         $comment = $post->comments()->where('is_active', '=', '1')->get();
-
-        return view('post', compact('post', 'comment'));
+        $categories = Category::all();
+        return view('post', compact('post', 'comment','categories'));
     }
 
     public function category($id)

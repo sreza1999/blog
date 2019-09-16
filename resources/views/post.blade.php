@@ -7,7 +7,7 @@
 
     <!-- Author -->
     <p class="lead">
-        by <a href="#">{{$post->user->name}}</a>
+        by {{$post->user->name}}
     </p>
 
     <hr>
@@ -36,7 +36,7 @@
             @csrf
             <input type="hidden" name="post_id" value="{{$post->id}}">
             <div class="form-group">
-                <lable for="name"><h5> Caption</h5></lable>
+                <lable for="name"><h5> Comment</h5></lable>
 
                 <textarea class="form-control" rows="3" name="body"></textarea>
             </div>
@@ -96,7 +96,7 @@
                                 @csrf
                                 <input type="hidden" name="comment_id" value="{{$comments->id}}">
                                 <div class="form-group">
-                                    <lable for="name"><h5> Caption</h5></lable>
+                                    <lable for="name"><h5> Comment</h5></lable>
 
                                     <textarea class="form-control" rows="3" name="body"></textarea>
                                 </div>
