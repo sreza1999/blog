@@ -37,7 +37,6 @@
             <input type="hidden" name="post_id" value="{{$post->id}}">
             <div class="form-group">
                 <lable for="name"><h5> Comment</h5></lable>
-
                 <textarea class="form-control" rows="3" name="body"></textarea>
             </div>
             <div class="form-group">
