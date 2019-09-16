@@ -1,22 +1,21 @@
 @extends('layouts.admin');
 @section('content')
+    <h1>Users</h1>
+
     @if(Session::has('create_user'))
         <div class="alert alert-success" role="alert">
             <h5>User successfully create</h5>
         </div>
-        <h1>Users</h1>
     @endif
     @if(Session::has('delete_user'))
         <div class="alert alert-success" role="alert">
             <h5>User successfully Delete</h5>
         </div>
-        <h1>Users</h1>
     @endif
     @if(Session::has('edit_user'))
         <div class="alert alert-success" role="alert">
             <h5>User successfully Update</h5>
         </div>
-        <h1>Users</h1>
     @endif
     <div class="col-lg-12 ">
         <table class="table table-bordered table-hover table-responsive">

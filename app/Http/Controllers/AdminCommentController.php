@@ -39,7 +39,6 @@ class AdminCommentController extends Controller
     public function store(CommnetRequest $request)
     {
         $user = Auth::user();
-
         $data = [
             'post_id' => $request->post_id,
             'body' => $request->body,
@@ -47,8 +46,11 @@ class AdminCommentController extends Controller
             'email' => $user->email,
             'photo' => $user->photo->file,
         ];
-        Comment::create($data);
-        return redirect()->back();
+        if ($user) {
+            Comment::create($data);
+            return redirect()->back();
+        }
+        return redirect('/register');
     }
 
     /**

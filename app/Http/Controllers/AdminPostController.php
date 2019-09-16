@@ -9,6 +9,7 @@ use App\Photo;
 use App\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class AdminPostController extends Controller
 {
@@ -50,6 +51,8 @@ class AdminPostController extends Controller
             $photo = Photo::create(['file' => $name]);
             $input['photo_id'] = $photo->id;
         }
+        Session::flash('create_post' , 'successfully done');
+
         $user->posts()->create($input);
         return redirect('/admin/posts');
     }
@@ -96,6 +99,8 @@ class AdminPostController extends Controller
             $input['photo_id'] = $photo->id;
         }
         $post->update($input);
+        Session::flash('edit_post' , 'successfully done');
+
         return redirect('admin/posts');
 
     }
@@ -110,6 +115,7 @@ class AdminPostController extends Controller
     {
         $post = Post::find($id);
         $post->delete();
+        Session::flash('delete_post' , 'successfully done');
         return redirect('admin/posts');
     }
 

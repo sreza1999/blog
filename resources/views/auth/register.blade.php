@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+    @if(Session::has('User_create'))
+        <div class="alert alert-success" role="alert">
+            <h5>ثبت نام با موفقیت انجام شد بعد از تایید ادمین میتوانید وارد شوید</h5>
+        </div>
+    @endif
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">

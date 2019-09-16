@@ -4,7 +4,6 @@
         <div id="page-wrapper">
             @include('includes.tiny-editor')
             <div class="container-fluid">
-
                 <!-- Page Heading -->
                 <div class="row">
                     <div class="col-lg-6">

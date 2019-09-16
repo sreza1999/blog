@@ -68,6 +68,11 @@
         <!-- /.container -->
     </nav>
     <!-- Page Content -->
+    @if(Session::has('create_user'))
+        <div class="alert alert-success" role="alert">
+            <h5>ثبت نام با موفقیت انجام شد بعد از تایید ادمین میتوانید وارد شوید</h5>
+        </div>
+    @endif
     <div class="container">
 
         <div class="row">

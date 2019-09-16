@@ -1,7 +1,21 @@
 @extends('layouts.admin');
 @section('content')
     <h1>Posts</h1>
-
+    @if(Session::has('create_post'))
+        <div class="alert alert-success" role="alert">
+            <h5>Post successfully Send</h5>
+        </div>
+    @endif
+    @if(Session::has('delete_post'))
+        <div class="alert alert-success" role="alert">
+            <h5>post successfully Delete</h5>
+        </div>
+    @endif
+    @if(Session::has('edit_post'))
+        <div class="alert alert-success" role="alert">
+            <h5>post successfully Update</h5>
+        </div>
+    @endif
 
     <table class="table">
         <thead>
