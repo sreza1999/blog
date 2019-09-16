@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaeaf186-ad35-45e4-af1c-d6b5dc7a6b02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="aaeaf186-ad35-45e4-af1c-d6b5dc7a6b02" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +176,7 @@
       <workItem from="1568031972514" duration="1025000" />
       <workItem from="1568033941403" duration="51525000" />
       <workItem from="1568236718785" duration="169000" />
-      <workItem from="1568543177838" duration="13579000" />
+      <workItem from="1568543177838" duration="14417000" />
     </task>
     <task id="LOCAL-00001" summary="end project">
       <created>1568233297830</created>
@@ -225,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568665955636</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="edit some alert">
+      <created>1568666596163</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568666596163</updated>
+    </task>
+    <task id="LOCAL-00008" summary="repair some bug">
+      <created>1568666644252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568666644252</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +258,7 @@
     <MESSAGE value="add page render" />
     <MESSAGE value="add .htaccess file" />
     <MESSAGE value="edit some alert" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit some alert" />
+    <MESSAGE value="repair some bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="repair some bug" />
   </component>
 </project>
