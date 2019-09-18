@@ -129,7 +129,7 @@ class AdminPostController extends Controller
 
     public function category($id)
     {
-        $posts = Post::all()->where('category_id', '=', $id);
+        $posts = Post::where('category_id', '=', $id)->paginate(15);
         $categories = Category::all();
         return view('layouts.index', compact('posts', 'categories'));
     }

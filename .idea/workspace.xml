@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaeaf186-ad35-45e4-af1c-d6b5dc7a6b02" name="Default Changelist" comment="" />
+    <list default="true" id="aaeaf186-ad35-45e4-af1c-d6b5dc7a6b02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostController.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +179,10 @@
       <workItem from="1568031972514" duration="1025000" />
       <workItem from="1568033941403" duration="51525000" />
       <workItem from="1568236718785" duration="169000" />
-      <workItem from="1568543177838" duration="14417000" />
+      <workItem from="1568543177838" duration="15929000" />
+      <workItem from="1568711661831" duration="11000" />
+      <workItem from="1568780791342" duration="150000" />
+      <workItem from="1568802234948" duration="2844000" />
     </task>
     <task id="LOCAL-00001" summary="end project">
       <created>1568233297830</created>
@@ -234,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568666644252</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add dashboard file">
+      <created>1568667873763</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568667873763</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +272,7 @@
     <MESSAGE value="add .htaccess file" />
     <MESSAGE value="edit some alert" />
     <MESSAGE value="repair some bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="repair some bug" />
+    <MESSAGE value="add dashboard file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dashboard file" />
   </component>
 </project>
