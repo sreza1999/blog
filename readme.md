@@ -9,4 +9,4 @@
 
 <h1> Personal Blog</h1>
 <h1> written with laravel</h1>
-<h3>you can see it in <h4><a href="www.sreza78.ir">www.sreza78.ir</a></h4></h3>
+<h3>you can see it in <h4>www.sreza78.ir</h4></h3>
